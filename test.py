@@ -13,3 +13,5 @@ print("edit the data like normal")
 d.data["bye"] = hi
 print("write all the data currently done:")
 d.write()
+d.data = {}
+d.write()
