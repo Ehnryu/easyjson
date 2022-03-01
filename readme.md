@@ -17,9 +17,13 @@ print("edit the data:")
 d.add("hi","bye") # add auto writes from whatever is done before
 print("get the data:")
 hi = d.get("hi")
+print("key hi: " + hi)
 print("edit the data like normal")
 d.data["bye"] = hi
 print("write all the data currently done:")
+d.write()
+print("manually set data")
+d.data = {}
 d.write()
 ```
 
